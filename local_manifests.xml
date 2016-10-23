@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="zwliew/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.0" />
+  <project name="zwliew/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-14.0-new" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="github" revision="cm-14.0" />
+ <project name="zwliew/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.0" />
+</manifest>
