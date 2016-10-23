@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="zwliew/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.0" />
-  <project name="zwliew/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-14.0-new" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="github" revision="cm-14.0" />
- <project name="zwliew/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.0" />
+<manifest>  
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/fortunave3g" name="ZIM555/android_device_samsung_fortunave3g" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/fortuna3g" name="ZIM555/android_device_samsung_fortuna3g" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung/fortuna3g" name="ZIM555/android_vendor_samsung_fortuna3g" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/fortunaxx3g" name="ZIM555/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-13.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0"/>
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
 </manifest>
