@@ -2,8 +2,8 @@
 
 # ccache
 export USE_CCACHE=1
-mkdir -d /home/android/ccache/cm_$device
-export CCACHE_DIR=/home/android/ccache/cm_$device
+mkdir -d /home/android/ccache/xosp_$device
+export CCACHE_DIR=/home/android/ccache/xosp_$device
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 
