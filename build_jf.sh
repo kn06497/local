@@ -13,5 +13,4 @@ export KBUILD_BUILD_HOST=xda-developers
 
 # Build environment
 . build/envsetup.sh
-lunch xosp_jflteatt-userdebug
 brunch jflteatt
