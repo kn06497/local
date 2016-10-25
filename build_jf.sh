@@ -2,8 +2,8 @@
 
 # ccache
 export USE_CCACHE=1
-mkdir -d /home/android/ccache/xosp_jflteatt
-export CCACHE_DIR=/home/android/ccache/xosp_jflteatt
+mkdir -d /home/android/ccache/aicp_$device
+export CCACHE_DIR=/home/android/ccache/aicp_$device
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 
@@ -13,4 +13,4 @@ export KBUILD_BUILD_HOST=xda-developers
 
 # Build environment
 . build/envsetup.sh
-brunch jflteatt
+brunch $device
