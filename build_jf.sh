@@ -36,6 +36,6 @@ prebuilts/misc/linux-x86/ccache/ccache -M 20G
 	brunch $device
 
 # Upload 
-home="/home"
-rom="$home/android/cm-14.1/xosp/out/target/product/jf*/*2016*.zip"
+home="/home/android"
+rom="Android/cm-14.1/out/target/product/jf*/*2016*.zip"
 curl -T $rom ftp://uploads.androidfilehost.com --user kn06497:YKAcLO5U0vyD
