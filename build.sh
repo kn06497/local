@@ -10,5 +10,5 @@ prebuilts/misc/linux-x86/ccache/ccache -M 20G
 
 # Upload 
 home="/home/android"
-rom="Android/RR-N/out/target/product/for*/*2016*.zip"
+rom="Android/RR-N/out/target/product/*n*/*2016*.zip"
 curl -T $rom ftp://uploads.androidfilehost.com --user kn06497:YKAcLO5U0vyD
