@@ -26,8 +26,8 @@ DEVICE="$1"
 
 # ccache
 export USE_CCACHE=1
-mkdir -p /home/android/ccache/cm_$device
-export CCACHE_DIR=/home/android/ccache/cm_$device
+mkdir -p /home/jenkins/ccache/cm_$device
+export CCACHE_DIR=/home/jenkins/ccache/cm_$device
 prebuilts/misc/linux-x86/ccache/ccache -M 20G
 
 # Compile the build
@@ -36,6 +36,6 @@ prebuilts/misc/linux-x86/ccache/ccache -M 20G
 	brunch $device
 
 # Upload 
-home="/home/android"
+home="/home/jenkins"
 rom="Android/cm-14.1/out/target/product/*for*/*2016*.zip"
 curl -T $rom ftp://uploads.androidfilehost.com --user kn06497:YKAcLO5U0vyD
